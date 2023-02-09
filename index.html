@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Bazinger</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <nav class="container">
+                <section class="logo">
+                    <div class="logo__img">
+                        <h4>ba<span>zinger</span></h4>
+                    </div>
+                </section>
+                <section class="navigation">
+                    <ul class="navigation__list">
+                        <li class="navigation__item"><a href="#">Home</a></li>
+                        <li class="navigation__item"><a href="#">Features</a></li>
+                        <li class="navigation__item"><a href="#">Gallery</a></li>
+                        <li class="navigation__item"><a href="#">Video</a></li>
+                        <li class="navigation__item"><a href="#">Prices</a></li>
+                        <li class="navigation__item"><a href="#">Testimonials</a></li>
+                        <li class="navigation__item"><a href="#">Download</a></li>
+                        <li class="navigation__item"><a href="#">Contact</a></li>
+                    </ul>
+                </section>
+                <section class="navigation__burger">
+                    <div class="hamburger-menu">
+                        <input id="menu__toggle" type="checkbox" />
+                        <label class="menu__btn" for="menu__toggle">
+                            <span></span>
+                        </label>
+
+                        <ul class="menu__box">
+                            <div class="close__navbar">
+                                <input id="menu__toggle" type="checkbox" checked />
+                                <label class="menu__btn" for="menu__toggle">
+                                    <span></span>
+                                </label>
+                            </div>
+
+                            <li><a class="menu__item" href="#">Home</a></li>
+                            <li><a class="menu__item" href="#">Features</a></li>
+                            <li><a class="menu__item" href="#">Gallery</a></li>
+                            <li><a class="menu__item" href="#">Video</a></li>
+                            <li><a class="menu__item" href="#">Prices</a></li>
+                            <li><a class="menu__item" href="#">Testimonials</a></li>
+                            <li><a class="menu__item" href="#">Download</a></li>
+                            <li><a class="menu__item" href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </section>
+            </nav>
+        </header>
+
+        <main>
+            <section class="slider__wrapper container">
+
+                <div id="slider">
+                    <input type="radio" id="slide1" name="slider" checked />
+                    <input type="radio" id="slide2" name="slider" />
+                    <input type="radio" id="slide3" name="slider" />
+
+                    <div id="slides">
+                        <div id="overflow">
+                            <div class="inner">
+                                <div class="page"><img src="./image/slider.png" alt="" /></div>
+                                <div class="page"><img src="./image/slider.png" alt="" /></div>
+                                <div class="page"><img src="./image/slider.png" alt="" /></div>
+                                <div class="page"><img src="./image/slider.png" alt="" /></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="controls">
+                        <label for="slide1"></label>
+                        <label for="slide2"></label>
+                        <label for="slide3"></label>
+                    </div>
+
+                    <div id="active">
+                        <label for="slide1"></label>
+                        <label for="slide2"></label>
+                        <label for="slide3"></label>
+                    </div>
+                    <section class="slider__info">
+                        <h4>Simple, Beutiful <span>and Amazing</span></h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget nunc vitae tellus luctus
+                            ullamcorper. Nam porttitor
+                            ullamcorper felis at convallis. Aenean ornare vestibulum nisi fringilla lacinia. Nullam
+                            pulvinar sollicitudin velit id
+                            laoreet. Quisque non rhoncus sem.
+                        </p>
+                        <section class="buttons__section">
+
+                            <div class="btn__download">
+                                <button class="download">Download</button>
+                            </div>
+                            <div class="btn__learn-more">
+                                <button class="learn-more">learn more</button>
+                            </div>
+                        </section>
+                        <section class="icons__section">
+                            <span>Aavailable on :</span>
+                            <span><img src="./image/android-icon.svg" alt=""></span>
+                            <span><img src="./image/apple-icon.svg" alt=""></span>
+                        </section>
+                    </section>
+                </div>
+
+            </section>
+
+            <section class="content container">
+                <section class="content__header">
+                    <h2>summarise the features</h2>
+                    <p>summarise what your product is all about</p>
+                </section>
+
+                <div class="box">
+                    <div class="area">
+                        <div class="icon">
+                            <img src="./image/layout-icon.svg" alt="">
+                        </div>
+                        <h4>Attractive layout</h4>
+                        <p>
+                            Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam
+                            elerisque mi id faucibus
+                            iaculis vitae pulvinar.
+                        </p>
+                    </div>
+                    <div class="area">
+                        <div class="icon">
+                            <img src="./image/design-icon.svg" alt="">
+                        </div>
+                        <h4>Fresh Design</h4>
+                        <p>
+                            Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam
+                            elerisque mi id faucibus
+                            iaculis vitae pulvinar.
+                        </p>
+                    </div>
+                    <div class="area">
+                        <div class="icon">
+                            <img src="./image/multipropose-icon.svg" alt="">
+                        </div>
+                        <h4>Multipurpose</h4>
+                        <p>
+                            Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam
+                            elerisque mi id faucibus
+                            iaculis vitae pulvinar.
+                        </p>
+                    </div>
+                    <div class="area">
+                        <div class="icon">
+                            <img src="./image/costomize-icon.svg" alt="">
+                        </div>
+                        <h4>Easy to Customize</h4>
+                        <p>
+                            Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam
+                            elerisque mi id faucibus
+                            iaculis vitae pulvinar.
+                        </p>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="gallery container">
+                <section class="gallery__header">
+                    <h2>summarise the features</h2>
+                    <p>summarise what your product is all about</p>
+                </section>
+                <ul class="cards__list">
+                    <li class="card__item">
+                        <div class="card__img">
+                            <img src="./image/gallery.png" alt="">
+                            <h4 class="card__title">Screen Shot #1</h4>
+                            <div class="hover__cover">
+                                <span>+</span>
+                            </div>
+                        </div>
+                        <p class="card__description">Nunc cursus libero purus ac congue arcu cursus ut sed vitae
+                            pulvinar massa idporta nequetiam elerisque mi id faucibus
+                            iaculis vitae pulvinar.
+                        </p>
+                    </li>
+                    <li class="card__item">
+                        <div class="card__img">
+                            <img src="./image/gallery.png" alt="">
+                            <h4 class="card__title">Screen Shot #2</h4>
+                            <div class="hover__cover">
+                                <span>+</span>
+                            </div>
+                        </div>
+                        <p class="card__description">Nunc cursus libero purus ac congue arcu cursus ut sed vitae
+                            pulvinar massa idporta nequetiam elerisque mi id faucibus
+                            iaculis vitae pulvinar.
+                        </p>
+                    </li>
+                    <li class="card__item">
+                        <div class="card__img">
+                            <img src="./image/gallery.png" alt="">
+                            <h4 class="card__title">Screen Shot #3</h4>
+                            <div class="hover__cover">
+                                <span>+</span>
+                            </div>
+                        </div>
+                        <p class="card__description">Nunc cursus libero purus ac congue arcu cursus ut sed vitae
+                            pulvinar massa idporta nequetiam elerisque mi id faucibus
+                            iaculis vitae pulvinar.
+                        </p>
+                    </li>
+                    <li class="card__item">
+                        <div class="card__img">
+                            <img src="./image/gallery.png" alt="">
+                            <h4 class="card__title">Screen Shot #4</h4>
+                            <div class="hover__cover">
+                                <span>+</span>
+                            </div>
+                        </div>
+                        <p class="card__description">Nunc cursus libero purus ac congue arcu cursus ut sed vitae
+                            pulvinar massa idporta nequetiam elerisque mi id faucibus
+                            iaculis vitae pulvinar.
+                        </p>
+                    </li>
+
+                </ul>
+            </section>
+
+            <section class="video__wrapper">
+                <div class="cover__video-img"></div>
+                <div class="modal__box container">
+                    <div class="play__btn">
+                        <button class="play">
+                            <div></div>
+                        </button>
+                    </div>
+                    <h6>Watch the best Technology in <span>Action</span></h6>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia vitae quidem sapiente
+                        facilis veniam ratione dolores voluptas sint, sunt cum.</p>
+
+                </div>
+                <div id="myModal" class="modal">
+
+                    <!-- Modal content -->
+                    <div class="modal-content ">
+                        <span class="close__modal">&times;</span>
+                        <div id="player-overlay">
+                            <video controls>
+                                <source src="http://techslides.com/demos/sample-videos/small.webm" type="video/webm">
+                                <source src="http://techslides.com/demos/sample-videos/small.ogv" type="video/ogg">
+                                <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
+                                <source src="http://techslides.com/demos/sample-videos/small.3gp" type="video/3gp">
+                            </video>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="map-form__wrapper">
+                <section class="map__box">
+                    <div class="map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d81317.31445734204!2d30.57188095347849!3d50.43800715826361!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1675939868299!5m2!1sru!2sua"
+                            allowfullscreen="" loading="
+                            lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </section>
+                <section class="form__box">
+                    <form action="">
+                        <h4>Contact</h4>
+                        <input type="text" placeholder="Your name">
+                        <input type="email" placeholder="Your email">
+                        <input type="text" placeholder="Subject">
+                        <input type="text" placeholder="Message" class="message">
+                        <button class="send__btn">Send</button>
+                    </form>
+                </section>
+            </section>
+
+        </main>
+
+        <footer class=" footer">
+            <section class="footer__nav container">
+                <h5>Copyright © 2013 | bazinger | All Rights Reserved</h5>
+                <h5>Terms of Service | Privacy Policy</h5>
+            </section>
+        </footer>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
