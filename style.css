@@ -124,8 +124,8 @@ header {
   background: rgb(14, 27, 42);
   background: linear-gradient(
     212deg,
-    rgba(14, 27, 42, 1) 0%,
-    rgba(96, 127, 145, 1) 50%,
+    #0e1b2a 0%,
+    #607f91 50%,
     rgba(14, 27, 42, 1) 100%
   );
   margin-bottom: 45px;
@@ -161,7 +161,7 @@ header nav {
 .navigation__item:hover {
   text-decoration: underline;
   cursor: pointer;
-  color: rgba(75, 202, 255, 1);
+  color: #4bcaff;
 }
 
 .navigation__list:last-child {
@@ -296,38 +296,35 @@ main {
 
 /* slider styles  */
 .slider__wrapper {
-  display: none;
+  display: block;
   position: relative;
   margin-bottom: 20px;
 }
 
 .slider__info {
   display: flex;
-  flex-flow: column;
-  color: #fff;
-  max-width: 50%;
+  flex-direction: column;
   position: absolute;
-  float: right;
-  right: 5%;
-  top: 40%;
-  transform: translate(0%, -40%);
+  padding: 10px;
+  top: 0;
+  color: #fff;
 }
 
 .buttons__section {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 50px;
+  padding-bottom: 10px;
 }
 
 .slider__info h4 {
   font-size: 24px;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 }
 
 .slider__info p {
-  font-size: 18px;
-  line-height: 22px;
-  padding-bottom: 40px;
+  font-size: 14px;
+  line-height: 18px;
+  padding-bottom: 10px;
 }
 
 .slider__info h4 > span {
@@ -340,21 +337,22 @@ main {
 
 .btn__download .download,
 .btn__learn-more .learn-more {
-  padding: 20px 50px;
+  padding: 10px 25px;
   border: 2px solid #ffffff;
   background-color: rgba(0, 0, 0, 0);
   border-radius: 5px;
   transition: all 0.5s 0s;
 }
+
 .btn__download .download:hover,
 .btn__learn-more .learn-more:hover {
-  background-color: rgba(75, 202, 255, 1);
+  background-color: #4bcaff;
   box-shadow: 0px 4px 0px #277697;
 }
 
 .btn__download .download {
   margin-right: 40px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .icons__section {
@@ -389,7 +387,7 @@ main {
 
 .inner {
   width: 500%;
-  max-height: 10%;
+  max-height: 20%;
 }
 .inner:after {
   content: "";
@@ -401,11 +399,11 @@ main {
 .page {
   float: left;
   width: 20%;
-  height: 10%;
+  height: 350px;
 }
 .page img {
   min-width: 100%;
-  max-height: auto;
+  height: 350px;
 }
 
 #overflow {
@@ -543,6 +541,7 @@ main .content {
 main .content .content__header {
   display: flex;
   justify-content: center;
+  text-align: center;
   flex-flow: column;
   align-items: center;
   padding-bottom: 65px;
@@ -568,7 +567,7 @@ main .content .content__header h2 {
   max-width: 170px;
   max-height: 170px;
   padding: 54px;
-  background: rgb(75, 202, 255);
+  background: #4bcaff;
   border: 4px solid #efefef;
   border-radius: 50%;
   transition: all 0.5s 0s;
@@ -640,7 +639,7 @@ main .content .content__header h2 {
   width: 100%;
   text-transform: uppercase;
   background-color: #424040;
-  color: rgb(75, 202, 255);
+  color: #4bcaff;
   bottom: 0;
   left: 50%;
   transform: translate(-50%);
@@ -830,7 +829,7 @@ video {
   justify-content: center;
   align-items: center;
   padding: 30px;
-  background-color: rgba(75, 201, 255, 0.6);
+  background-color: #4bc9ff99;
   color: #fff;
   border-radius: 3px;
 }
@@ -841,7 +840,7 @@ video {
 }
 .form__box form input {
   text-align: center;
-  color: rgba(211, 211, 211, 1);
+  color: #d3d3d3;
   background: #ffffff;
   box-shadow: 0px -1px 0px rgba(0, 0, 0, 0.06);
   border-radius: 3px;
@@ -854,15 +853,15 @@ video {
 }
 
 .form__box form .send__btn {
-  color: rgb(75, 202, 255);
-  background-color: rgba(65, 64, 66, 1);
+  color: #4bcaff;
+  background-color: #414042;
   box-shadow: 0px 4px 0px #313032;
   padding: 15px 65px;
   border-radius: 6px;
   transition: all 0.5s 0s;
 }
 .form__box form .send__btn:hover {
-  color: rgba(65, 64, 66, 1);
+  color: #414042;
   background-color: #277697;
   box-shadow: 0px 4px 0px #313032;
   padding: 15px 65px;
@@ -874,7 +873,7 @@ video {
 .footer {
   font-size: 12px;
   color: rgba(254, 254, 254, 1);
-  background-color: rgba(65, 64, 66, 1);
+  background-color: #414042;
 }
 
 .footer__nav {
@@ -898,11 +897,49 @@ Extra extra large	xxl	≥1400px */
     display: block;
     width: 100%;
   }
+  .slider__info {
+    display: flex;
+    text-align: center;
+    flex-flow: column;
+    color: #fff;
+    max-width: 50%;
+    position: absolute;
+    float: right;
+    right: 5%;
+    top: 40%;
+    transform: translate(0%, -40%);
+  }
+  .buttons__section {
+    padding-bottom: 50px;
+  }
+
+  .slider__info h4 {
+    padding-bottom: 10px;
+  }
+  .btn__download .download,
+  .btn__learn-more .learn-more {
+    padding: 20px 50px;
+  }
+  .page {
+    float: left;
+    width: 20%;
+    height: 20%;
+  }
+  .page img {
+    min-width: 100%;
+    height: 20%;
+  }
+
   header {
     margin-bottom: 0;
   }
   .modal__box {
     padding: 150px 0;
+  }
+  .slider__info p {
+    font-size: 18px;
+    line-height: 22px;
+    padding-bottom: 40px;
   }
 }
 
@@ -937,8 +974,6 @@ Extra extra large	xxl	≥1400px */
   }
 
   .footer__nav {
-    display: flex;
-    justify-content: space-between;
     padding: 45px 0;
   }
 }
